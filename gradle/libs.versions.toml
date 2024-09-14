@@ -10,7 +10,6 @@ material = "1.12.0"
 activity = "1.9.1"
 constraintlayout = "2.1.4"
 
-
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -26,4 +25,3 @@ retrofitConverterGson = { group = "com.squareup.retrofit2", name = "converter-gs
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
