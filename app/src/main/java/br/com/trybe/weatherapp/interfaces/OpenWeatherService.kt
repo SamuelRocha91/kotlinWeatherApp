@@ -1,6 +1,7 @@
 package br.com.trybe.weatherapp.interfaces
 
 import android.telecom.Call
+import br.com.trybe.weatherapp.data.CurrentWeatherData
 import retrofit2.http.GET
 import retrofit2.http.Query
 
