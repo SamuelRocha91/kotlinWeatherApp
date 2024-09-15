@@ -3,9 +3,9 @@
 ![WeatherApp](./app/src/main/weather.gif)
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="./app/src/main/res/drawable/english.png" alt="english version app" style="width:30%; height: auto; margin:10px;" />
-  <img src="./app/src/main/res/drawable/spanish.png" alt="spanish version app" style="width:30%; height: auto; margin:10px;" />
-  <img src="./app/src/main/res/drawable/ru.png" alt="russian version app" style="width:30%; height: auto; margin:10px;" />
+  <img src="./app/src/main/res/drawable/english.png" alt="english version app" style="width:33%; height: auto; margin:10px;" />
+  <img src="./app/src/main/res/drawable/spanish.png" alt="spanish version app" style="width:33%; height: auto; margin:10px;" />
+  <img src="./app/src/main/res/drawable/ru.png" alt="russian version app" style="width:33%; height: auto; margin:10px;" />
 </div>
 
 <h2>🌐</h2>
