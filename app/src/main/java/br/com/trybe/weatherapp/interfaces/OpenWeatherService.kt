@@ -1,4 +1,4 @@
-package br.com.trybe.weatherapp.interfaces.api
+package br.com.trybe.weatherapp.interfaces
 
 import br.com.trybe.weatherapp.data.CurrentWeatherData
 import retrofit2.Response
