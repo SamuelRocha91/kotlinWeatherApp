@@ -2,6 +2,12 @@
 
 ![WeatherApp](./app/src/main/weather.gif)
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="./app/src/main/res/drawable/english.png" alt="english version app" style="width:32%; height: auto; margin:10px;" />
+  <img src="./app/src/main/res/drawable/spanish.png" alt="spanish version app" style="width:32%; height: auto; margin:10px;" />
+  <img src="./app/src/main/res/drawable/ru.png" alt="russian version app" style="width:32%; height: auto; margin:10px;" />
+</div>
+
 <h2>🌐</h2>
 <ul>
   <li><a href="https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README.md" target="_blank">Português</a></li>
