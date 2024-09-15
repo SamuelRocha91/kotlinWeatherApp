@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="placeholder_text">输入城市名称</string>
+    <string name="btn_text">搜索</string>
+</resources>

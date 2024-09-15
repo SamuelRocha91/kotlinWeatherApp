@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:hint="Digite o nome da cidade"
+            android:hint="@string/placeholder_text"
             android:inputType="text"
             android:textColorHighlight="#070707"
             android:textSize="18sp" />
@@ -47,12 +47,12 @@
         android:id="@+id/search_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Pesquisar"
-        app:layout_constraintTop_toBottomOf="@id/textInputLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginBottom="16dp" />
+        android:text="@string/btn_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textInputLayout"
+        tools:text="@string/btn_text" />
 
     <TextView
         android:id="@+id/main_date_dt"
