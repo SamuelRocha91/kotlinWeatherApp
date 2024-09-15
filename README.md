@@ -35,7 +35,7 @@ O **WeatherApp** é uma aplicação Android simples que permite ao usuário busc
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/weatherapp.git
+   git clone git@github.com:SamuelRocha91/kotlinWeatherApp.git
    ```
 
 2. Abra o projeto no **Android Studio**.
