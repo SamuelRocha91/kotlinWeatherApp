@@ -1,7 +1,3 @@
-Aqui está a versão em árabe do README para **WeatherApp**:
-
----
-
 # تطبيق الطقس (WeatherApp)
 
 ![WeatherApp](./app/src/main/weather.gif)
@@ -85,4 +81,3 @@ Aqui está a versão em árabe do README para **WeatherApp**:
 - دعم العمل دون اتصال بالإنترنت مع تخزين مؤقت لآخر الاستعلامات.
 
 ---
-
