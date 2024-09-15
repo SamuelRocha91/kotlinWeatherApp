@@ -2,6 +2,16 @@
 
 ![WeatherApp](./app/src/main/weather.gif)
 
+<h2>🌐</h2>
+<ul>
+  <li><a href="https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README.md" target="_blank">Português</a></li>
+  <li><a href="https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_sp.md" target="_blank">Español</a></li>
+  <li><a href="https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_en.md" target="_blank">English</a></li>
+  <li><a href="https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ru.md" target="_blank">Русский</a></li>
+  <li><a href="https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ch.md" target="_blank">中文</a></li>
+  <li><a href="https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ar.md" target="_blank">العربية</a></li>
+</ul>
+
 ## Descripción
 
 **WeatherApp** es una aplicación simple de Android que permite al usuario buscar información meteorológica en tiempo real para cualquier ciudad, utilizando la API de **OpenWeather**. Con una interfaz amigable, el usuario puede ver la temperatura actual, sensación térmica, humedad y la hora de la última actualización del clima.
