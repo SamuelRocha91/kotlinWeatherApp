@@ -2,4 +2,7 @@
     <string name="app_name">WeatherApp</string>
     <string name="placeholder_text">Ingrese el nombre de la ciudad</string>
     <string name="btn_text">Buscar</string>
+    <string name="humidity">Humedad</string>
+    <string name="feels_like">Sensación térmica</string>
+    <string name="error_message">Datos no disponibles</string>
 </resources>

@@ -2,4 +2,7 @@
     <string name="app_name">WeatherApp</string>
     <string name="placeholder_text">Enter the name of the city</string>
     <string name="btn_text">Search</string>
+    <string name="humidity">Humidity</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="error_message">Data not available</string>
 </resources>
