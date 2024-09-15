@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="placeholder_text">أدخل اسم المدينة</string>
+    <string name="btn_text">بحث</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="feels_like">الإحساس</string>
+    <string name="error_message">البيانات غير متوفرة</string>
+</resources>

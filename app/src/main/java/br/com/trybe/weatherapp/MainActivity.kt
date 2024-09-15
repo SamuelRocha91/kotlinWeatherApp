@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
                     weatherData?.let {
                         updateUI(it)
                     } ?: run {
-                        showError("Dados não disponíveis")
+                        showError(getString(R.string.error_message))
                     }
                 }
             }
@@ -84,11 +84,11 @@ class MainActivity : AppCompatActivity() {
 
             cityText.text = "${dataWeather.name}, ${dataWeather.sys.country}"
 
-            umidityText.text = "Umidade: ${dataWeather.main.humidity}%"
+            umidityText.text = "${getString(R.string.humidity)}: ${dataWeather.main.humidity}%"
             umidityText.setCompoundDrawablesWithIntrinsicBounds(windIcon, null, null, null)
             umidityText.compoundDrawablePadding = 8
 
-            fellText.text = "Sensação térmica: ${dataWeather.main.feelsLike}° C"
+            fellText.text = "${getString(R.string.feels_like)}: ${dataWeather.main.feelsLike}° C"
             fellText.setCompoundDrawablesWithIntrinsicBounds(sunIcon, null, null, null)
             fellText.compoundDrawablePadding = 8
       }

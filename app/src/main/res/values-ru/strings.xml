@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="placeholder_text">Введите название города</string>
+    <string name="btn_text">Поиск</string>
+    <string name="humidity">Влажность</string>
+    <string name="feels_like">Ощущается как</string>
+    <string name="error_message">Данные недоступны</string>
+</resources>

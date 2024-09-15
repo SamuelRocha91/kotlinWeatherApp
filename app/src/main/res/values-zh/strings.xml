@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="placeholder_text">输入城市名称</string>
+    <string name="btn_text">搜索</string>
+    <string name="humidity">湿度</string>
+    <string name="feels_like">体感温度</string>
+    <string name="error_message">数据不可用</string>
+</resources>

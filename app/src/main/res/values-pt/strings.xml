@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="placeholder_text">Digite o nome da cidade</string>
+    <string name="btn_text">Pesquisar</string>
+    <string name="humidity">Umidade</string>
+    <string name="feels_like">Sensação térmica</string>
+    <string name="error_message">Dados não disponíveis</string>
+</resources>
