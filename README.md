@@ -93,4 +93,5 @@ O **WeatherApp** é uma aplicação Android simples que permite ao usuário busc
 
 - 📜 [Virtual Menu](https://github.com/SamuelRocha91/kotlinVirtualMenu)
 - 👤 [Social Login](https://github.com/SamuelRocha91/kotlinLoginSocial)
-  
+- 💱 [kotlin Exchange Rate](https://github.com/SamuelRocha91/kotlinExchangeRate)
+
