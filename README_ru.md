@@ -93,3 +93,4 @@
 
 - 📜 [Virtual Menu](https://github.com/SamuelRocha91/kotlinVirtualMenu/blob/main/README_ru.md)
 - 👤 [Social Login](https://github.com/SamuelRocha91/kotlinLoginSocial/blob/main/README_ru.md)
+- 💱 [kotlin Exchange Rate](https://github.com/SamuelRocha91/kotlinExchangeRate/blob/main/README_ru.md)
