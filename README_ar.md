@@ -1,98 +1,116 @@
-# <img src="https://italiancoders.it/wp-content/uploads/2018/01/kotlin_250x250.png" alt="Beginner Kotlin Project Logo" width="52" height="30" /> تطبيق الطقس (WeatherApp) <img src="https://italiancoders.it/wp-content/uploads/2018/01/kotlin_250x250.png" alt="Beginner Kotlin Project Logo" width="52" height="30" />
-
+# <img src="https://cdn-icons-png.flaticon.com/128/4300/4300493.png" alt="شعار مشاريع كوتلن" width="42" height="30" /> WeatherAPP <img src="https://cdn-icons-png.flaticon.com/128/4300/4300493.png" alt="شعار مشاريع كوتلن" width="42" height="30" />
 
 ![WeatherApp](./app/src/main/weather.gif)
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="./app/src/main/res/drawable/english.png" alt="english version app" style="width:32%; height: auto; margin:10px;" />
-  <img src="./app/src/main/res/drawable/spanish.png" alt="spanish version app" style="width:32%; height: auto; margin:10px;" />
-  <img src="./app/src/main/res/drawable/ru.png" alt="russian version app" style="width:32%; height: auto; margin:10px;" />
+  <img src="./app/src/main/res/drawable/english.png" alt="نسخة إنجليزية من التطبيق" style="width:32%; height: auto; margin:10px;" />
+  <img src="./app/src/main/res/drawable/spanish.png" alt="نسخة إسبانية من التطبيق" style="width:32%; height: auto; margin:10px;" />
+  <img src="./app/src/main/res/drawable/ru.png" alt="نسخة روسية من التطبيق" style="width:32%; height: auto; margin:10px;" />
 </div>
 
 ## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ar.md)
 
-## الوصف
+<details>
+  <summary><h2>📜 الوصف</h2></summary>
 
-**WeatherApp** هو تطبيق أندرويد بسيط يسمح للمستخدم بالبحث عن معلومات الطقس في أي مدينة في الوقت الفعلي باستخدام واجهة برمجة التطبيقات **OpenWeather**. من خلال واجهة سهلة الاستخدام، يمكن للمستخدم رؤية درجة الحرارة الحالية، والحرارة المحسوسة، والرطوبة، ووقت آخر تحديث للطقس.
+  **WeatherApp** هو تطبيق أندرويد بسيط يسمح للمستخدمين بالبحث في الوقت الفعلي عن معلومات الطقس في أي مدينة باستخدام **OpenWeather** API. من خلال واجهة مستخدم بديهية، يمكن للمستخدمين الاطلاع على درجة الحرارة الحالية، ودرجة الحرارة المحسوسة، والرطوبة، وآخر وقت تم تحديثه.
 
-## الميزات
+</details>
 
-- البحث عن حالة الطقس في الوقت الفعلي حسب المدينة.
-- عرض درجة الحرارة الحالية (بالسيلسيوس)، الحرارة المحسوسة، الرطوبة، واسم المدينة.
-- واجهة بسيطة وسهلة الاستخدام.
-- رسائل خطأ وتنبيهات مخصصة (Toast) للأخطاء والرسائل.
+<details>
+  <summary><h2>🌟 الميزات</h2></summary>
 
-## التقنيات المستخدمة
+  - البحث في الوقت الفعلي عن الطقس في المدينة.
+  - عرض درجة الحرارة الحالية (بالدرجات المئوية)، ودرجة الحرارة المحسوسة، والرطوبة، واسم المدينة.
+  - واجهة بسيطة وسهلة الاستخدام.
+  - رسائل Toast مخصصة للإشعارات والأخطاء.
 
-- **Kotlin**: اللغة الرئيسية المستخدمة في تطوير التطبيق.
-- **Coroutines**: تستخدم لتنفيذ العمليات غير المتزامنة مثل طلبات API للطقس.
-- **Retrofit**: مكتبة تستخدم لاستهلاك API الخاصة بالطقس.
-- **OpenWeather API**: واجهة برمجة التطبيقات المستخدمة للحصول على معلومات الطقس.
-- **Material Design**: مكونات تصميم الماتريال من أندرويد لواجهة مستخدم جذابة.
-- **Toast مخصص**: لعرض رسائل خطأ أكثر وضوحاً.
+</details>
 
-## إعداد المشروع
+<details>
+  <summary><h2>🛠️ التقنيات المستخدمة</h2></summary>
 
-### المتطلبات المسبقة
+  - **Kotlin**: لغة البرمجة الرئيسية لتطوير التطبيق.
+  - **Coroutines**: تُستخدم للعمليات غير المتزامنة، مثل طلبات API للطقس.
+  - **Retrofit**: مكتبة للتفاعل مع RESTful API.
+  - **OpenWeather API**: API للحصول على معلومات الطقس.
+  - **Material Design**: مكونات تصميم المواد من أندرويد، تقدم واجهة مستخدم مرئية جذابة.
+  - **Toast مخصص**: لعرض رسائل الخطأ بشكل أكثر وضوحًا.
 
-- Android Studio 4.1 أو أعلى.
-- Gradle 7.0 أو أعلى.
-- حساب في [OpenWeather API](https://openweathermap.org/api) للحصول على مفتاح API.
+</details>
 
-### التثبيت
+<details>
+  <summary><h2>⚙️ إعداد المشروع</h2></summary>
 
-1. استنساخ المستودع:
+  <details>
+    <summary><h3>المتطلبات الأساسية</h3></summary>
 
-   ```bash
-   git clone git@github.com:SamuelRocha91/kotlinWeatherApp.git
-   ```
+    - Android Studio 4.1 أو إصدار أعلى.
+    - Gradle 7.0 أو إصدار أعلى.
+    - التسجيل للحصول على حساب على [OpenWeather API](https://openweathermap.org/api) للحصول على مفتاح API.
 
-2. افتح المشروع في **Android Studio**.
+  </details>
 
-3. أضف مفتاح API الخاص بك من OpenWeather إلى ملف `local.properties`:
+  <details>
+    <summary><h3>التثبيت</h3></summary>
 
-   ```
-   API_KEY=your_api_key_here
-   ```
+    1. استنساخ المستودع:
+       ```bash
+       git clone git@github.com:SamuelRocha91/kotlinWeatherApp.git
+       ```
 
-4. قم بتجميع وتشغيل المشروع على جهازك الأندرويد أو المحاكي.
+    2. افتح المشروع في **Android Studio**.
 
-### هيكلية الكود
+    3. أضف مفتاح API الخاص بك إلى ملف `local.properties`:
+       ```
+       API_KEY=your_api_key_here
+       ```
 
-- **MainActivity.kt**: النشاط الرئيسي للتطبيق الذي يدير الواجهة ويتعامل مع تفاعلات المستخدم.
-- **OpenWeather.kt**: الواجهة التي تحدد طلبات API للطقس باستخدام Retrofit.
-- **الأدوات**: يمكن استخراج وظائف مساعدة، مثل تحويل الطابع الزمني Unix إلى تنسيق قابل للقراءة، ووضعها في فئة الأدوات المساعدة.
-- **التخطيطات**: ملفات تخطيط XML محددة في مجلد `res/layout`، والتي تشمل هيكلية واجهة المستخدم.
+    4. قم ببناء المشروع وتشغيله على محاكي أو جهاز أندرويد.
 
-### التبعيات
+  </details>
 
-- `implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"`
-- `implementation "com.squareup.retrofit2:retrofit:2.9.0"`
-- `implementation "com.squareup.retrofit2:converter-gson:2.9.0"`
-- `implementation "com.google.android.material:material:1.4.0"`
+</details>
 
-## كيفية الاستخدام
+<details>
+  <summary><h2>📂 هيكل الشيفرة</h2></summary>
 
-1. افتح التطبيق.
-2. أدخل اسم المدينة في حقل البحث.
-3. اضغط على زر "بحث".
-4. شاهد معلومات الطقس، بما في ذلك:
-    - درجة الحرارة الحالية.
-    - الحرارة المحسوسة.
-    - الرطوبة.
-    - اسم المدينة والبلد.
+  - **MainActivity.kt**: النشاط الرئيسي للتطبيق، يدير واجهة المستخدم ويتعامل مع تفاعلات المستخدم.
+  - **OpenWeather.kt**: تعريف واجهة الاتصال مع API للطقس، باستخدام Retrofit.
+  - **الأدوات**: وظائف مساعدة، مثل تحويل الطوابع الزمنية UNIX إلى تنسيق مقروء، يمكن استخراجها ووضعها في فئة أدوات.
+  - **التخطيطات**: ملفات تخطيط XML المحددة في مجلد `res/layout`، بما في ذلك بنية واجهة المستخدم.
 
-## التحسينات المستقبلية
+</details>
 
-- إضافة دعم للوحدات المتعددة (درجة مئوية، فهرنهايت).
-- تنفيذ توقعات الطقس للأيام القادمة.
-- إضافة المزيد من الأيقونات للظروف الجوية المختلفة (غائم، ممطر، إلخ).
-- دعم العمل دون اتصال بالإنترنت مع تخزين مؤقت لآخر الاستعلامات.
+<details>
+  <summary><h2>📦 التبعيات</h2></summary>
 
----
-## مشاريع أخرى
+  - `implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"`
+  - `implementation "com.squareup.retrofit2:retrofit:2.9.0"`
+  - `implementation "com.squareup.retrofit2:converter-gson:2.9.0"`
+  - `implementation "com.google.android.material:material:1.4.0"`
 
+</details>
 
-- 📜 [Virtual Menu](https://github.com/SamuelRocha91/kotlinVirtualMenu/blob/main/README_ar.md)
-- 👤 [Social Login](https://github.com/SamuelRocha91/kotlinLoginSocial/blob/main/README_ar.md)
-- 💱 [kotlin Exchange Rate](https://github.com/SamuelRocha91/kotlinExchangeRate/blob/main/README_ar.md)
+<details>
+  <summary><h2>🧑‍🤝‍🧑 كيفية الاستخدام</h2></summary>
+
+  1. افتح التطبيق.
+  2. أدخل اسم المدينة في مربع البحث.
+  3. انقر على زر "بحث".
+  4. تحقق من معلومات الطقس، بما في ذلك:
+      - درجة الحرارة الحالية.
+      - درجة الحرارة المحسوسة.
+      - الرطوبة.
+      - اسم المدينة والدولة.
+
+</details>
+
+<details>
+  <summary><h2>📁 مشاريع كوتلن أخرى:</h2></summary>
+
+  - 📜 [قائمة الطعام الافتراضية](https://github.com/SamuelRocha91/kotlinVirtualMenu/blob/main/README_ar.md)
+  - 👤 [تسجيل الدخول الاجتماعي](https://github.com/SamuelRocha91/kotlinLoginSocial/blob/main/README_ar.md)
+  - 💱 [سعر الصرف](https://github.com/SamuelRocha91/kotlinExchangeRate/blob/main/README_ar.md)
+
+</details>

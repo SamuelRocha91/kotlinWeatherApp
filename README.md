@@ -1,5 +1,4 @@
-# <img src="https://italiancoders.it/wp-content/uploads/2018/01/kotlin_250x250.png" alt="Beginner Kotlin Project Logo" width="52" height="30" /> WeatherAPP <img src="https://italiancoders.it/wp-content/uploads/2018/01/kotlin_250x250.png" alt="Beginner Kotlin Project Logo" width="52" height="30" />
-
+# <img src="https://cdn-icons-png.flaticon.com/128/4300/4300493.png" alt="Kotlin Projects Logo" width="42" height="30" />  WeatherAPP <img src="https://cdn-icons-png.flaticon.com/128/4300/4300493.png" alt="Kotlin Projects Logo" width="42" height="30" />
 
 ![WeatherApp](./app/src/main/weather.gif)
 
@@ -11,87 +10,108 @@
 
 ## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/kotlinWeatherApp/blob/main/README_ar.md)
 
-## Descrição
+<details>
+  <summary><h2>📜 Descrição</h2></summary>
 
-O **WeatherApp** é uma aplicação Android simples que permite ao usuário buscar informações sobre o clima de qualquer cidade em tempo real, usando a API do **OpenWeather**. Com uma interface amigável, o usuário pode ver a temperatura atual, sensação térmica, umidade e o horário da última atualização do clima.
+  O **WeatherApp** é uma aplicação Android simples que permite ao usuário buscar informações sobre o clima de qualquer cidade em tempo real, usando a API do **OpenWeather**. Com uma interface amigável, o usuário pode ver a temperatura atual, sensação térmica, umidade e o horário da última atualização do clima.
 
-## Funcionalidades
+</details>
 
-- Busca de clima em tempo real por cidade.
-- Exibe a temperatura atual (em Celsius), sensação térmica, umidade e nome da cidade.
-- Interface minimalista e amigável.
-- Toast customizado para erros e mensagens.
+<details>
+  <summary><h2>🌟 Funcionalidades</h2></summary>
 
-## Tecnologias Utilizadas
+  - Busca de clima em tempo real por cidade.
+  - Exibe a temperatura atual (em Celsius), sensação térmica, umidade e nome da cidade.
+  - Interface minimalista e amigável.
+  - Toast customizado para erros e mensagens.
 
-- **Kotlin**: Linguagem principal usada no desenvolvimento do app.
-- **Coroutines**: Utilizado para operações assíncronas como requisições à API de clima.
-- **Retrofit**: Biblioteca usada para consumo de APIs RESTful.
-- **OpenWeather API**: API usada para obter as informações meteorológicas.
-- **Material Design**: Componentes do Android Material Design para uma interface visualmente agradável.
-- **Toast customizado**: Para exibir mensagens de erro mais chamativas.
+</details>
 
-## Configuração do Projeto
+<details>
+  <summary><h2>🛠️ Tecnologias Utilizadas</h2></summary>
 
-### Pré-requisitos
+  - **Kotlin**: Linguagem principal usada no desenvolvimento do app.
+  - **Coroutines**: Utilizado para operações assíncronas como requisições à API de clima.
+  - **Retrofit**: Biblioteca usada para consumo de APIs RESTful.
+  - **OpenWeather API**: API usada para obter as informações meteorológicas.
+  - **Material Design**: Componentes do Android Material Design para uma interface visualmente agradável.
+  - **Toast customizado**: Para exibir mensagens de erro mais chamativas.
 
-- Android Studio 4.1 ou superior.
-- Gradle 7.0 ou superior.
-- Conta no [OpenWeather API](https://openweathermap.org/api) para obter uma chave de API.
+</details>
 
-### Instalação
+<details>
+  <summary><h2>⚙️ Configuração do Projeto</h2></summary>
 
-1. Clone o repositório:
+  <details>
+    <summary><h3>Pré-requisitos</h3></summary>
 
-   ```bash
-   git clone git@github.com:SamuelRocha91/kotlinWeatherApp.git
-   ```
+    - Android Studio 4.1 ou superior.
+    - Gradle 7.0 ou superior.
+    - Conta no [OpenWeather API](https://openweathermap.org/api) para obter uma chave de API.
 
-2. Abra o projeto no **Android Studio**.
+  </details>
 
-3. Adicione sua chave da API do OpenWeather no arquivo `local.properties`:
+  <details>
+    <summary><h3>Instalação</h3></summary>
 
-   ```
-   API_KEY=your_api_key_here
-   ```
+    1. Clone o repositório:
+       ```bash
+       git clone git@github.com:SamuelRocha91/kotlinWeatherApp.git
+       ```
 
-4. Compile e rode o projeto no seu emulador ou dispositivo Android.
+    2. Abra o projeto no **Android Studio**.
 
-### Estrutura do Código
+    3. Adicione sua chave da API do OpenWeather no arquivo `local.properties`:
+       ```
+       API_KEY=your_api_key_here
+       ```
 
-- **MainActivity.kt**: Principal atividade da aplicação que gerencia a interface e lida com as interações do usuário.
-- **OpenWeather.kt**: Interface que define as chamadas à API de clima usando Retrofit.
-- **Utilidades**: Funções utilitárias, como a conversão de timestamp Unix para formato legível, podem ser extraídas e colocadas em uma classe de utilidades.
-- **Layouts**: Arquivos de layout XML definidos na pasta `res/layout`, que incluem a estrutura da interface do usuário.
+    4. Compile e rode o projeto no seu emulador ou dispositivo Android.
 
-### Dependências
+  </details>
 
-- `implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"`
-- `implementation "com.squareup.retrofit2:retrofit:2.9.0"`
-- `implementation "com.squareup.retrofit2:converter-gson:2.9.0"`
-- `implementation "com.google.android.material:material:1.4.0"`
+</details>
 
-## Como Usar
+<details>
+  <summary><h2>📂 Estrutura do Código</h2></summary>
 
-1. Abra o app.
-2. Insira o nome de uma cidade no campo de busca.
-3. Clique no botão "Buscar".
-4. Veja as informações sobre o clima, incluindo:
-    - Temperatura atual.
-    - Sensação térmica.
-    - Umidade.
-    - Nome da cidade e país.
+  - **MainActivity.kt**: Principal atividade da aplicação que gerencia a interface e lida com as interações do usuário.
+  - **OpenWeather.kt**: Interface que define as chamadas à API de clima usando Retrofit.
+  - **Utilidades**: Funções utilitárias, como a conversão de timestamp Unix para formato legível, podem ser extraídas e colocadas em uma classe de utilidades.
+  - **Layouts**: Arquivos de layout XML definidos na pasta `res/layout`, que incluem a estrutura da interface do usuário.
 
-## Melhorias Futuras
+</details>
 
-- Adicionar suporte para múltiplas unidades de medida (Celsius, Fahrenheit).
-- Implementar previsão do tempo para os próximos dias.
-- Adicionar mais ícones para diferentes condições climáticas (nublado, chuvoso, etc.).
-- Suporte offline com cache das últimas consultas.
+<details>
+  <summary><h2>📦 Dependências</h2></summary>
 
-## Outros projetos Kotlin:
+  - `implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"`
+  - `implementation "com.squareup.retrofit2:retrofit:2.9.0"`
+  - `implementation "com.squareup.retrofit2:converter-gson:2.9.0"`
+  - `implementation "com.google.android.material:material:1.4.0"`
 
-- 📜 [Virtual Menu](https://github.com/SamuelRocha91/kotlinVirtualMenu)
-- 👤 [Social Login](https://github.com/SamuelRocha91/kotlinLoginSocial)
-- 💱 [kotlin Exchange Rate](https://github.com/SamuelRocha91/kotlinExchangeRate)
+</details>
 
+<details>
+  <summary><h2>🧑‍🤝‍🧑 Como Usar</h2></summary>
+
+  1. Abra o app.
+  2. Insira o nome de uma cidade no campo de busca.
+  3. Clique no botão "Buscar".
+  4. Veja as informações sobre o clima, incluindo:
+      - Temperatura atual.
+      - Sensação térmica.
+      - Umidade.
+      - Nome da cidade e país.
+
+</details>
+
+
+<details>
+  <summary><h2>📁 Outros projetos Kotlin:</h2></summary>
+
+  - 📜 [Virtual Menu](https://github.com/SamuelRocha91/kotlinVirtualMenu)
+  - 👤 [Social Login](https://github.com/SamuelRocha91/kotlinLoginSocial)
+  - 💱 [kotlin Exchange Rate](https://github.com/SamuelRocha91/kotlinExchangeRate)
+
+</details>
